@@ -1,26 +1,31 @@
-print("Calculator cmd v0.1")
+print("Calculator cmd v0.2")
+
 
 def calculate_add():
     value1 = int(input("First value: "))
     value2 = int(input("Second value: "))
     print(value1 + value2)
+
+
 def calculate_subtract():
     value1 = int(input("First value: "))
     value2 = int(input("Second value: "))
     print(value1 - value2)
+
+
 def calculate_multiply():
     value1 = int(input("First value: "))
     value2 = int(input("Second value: "))
     print(value1 * value2)
+
+
 def calculate_divide():
     value1 = int(input("First value: "))
     value2 = int(input("Second value: "))
     print(value1/value2)
 
 
-
 while True:
-
     print(
         '''Select mode: 
         Add = 1
@@ -28,7 +33,6 @@ while True:
         Multiply = 3
         Divide = 4
         ''')
-
     v1 = input("Select: ")
 
     if v1 == '1':
@@ -66,7 +70,6 @@ while True:
             break
         elif option == 'y':
             continue
-
 
     else:
         print("Please select again")
